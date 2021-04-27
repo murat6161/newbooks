@@ -7,7 +7,6 @@ import { ThemeContext } from "../context/ThemeContext";
 export default class BookList extends Component {
   render() {
    
-
     return (
       <ThemeContext.Consumer>{(contextTheme) => (
           <BookContext.Consumer>
